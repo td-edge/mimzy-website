@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PitchIt — Hear it. Match it. Share it.</title>
-  <meta name="description" content="A friend shared their PitchIt score with you. Hear it, then try to beat it." />
-  <meta property="og:title" content="Can you beat this PitchIt score?" />
-  <meta property="og:description" content="Listen to my attempt at mimicking a sound. Then download PitchIt and try to beat it." />
+  <title>Mimzy — Hear it. Match it. Share it.</title>
+  <meta name="description" content="A friend shared their Mimzy score with you. Hear it, then try to beat it." />
+  <meta property="og:title" content="Can you beat this Mimzy score?" />
+  <meta property="og:description" content="Listen to my attempt at mimicking a sound. Then download Mimzy and try to beat it." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://pitchitgame.app/share" />
+  <meta property="og:url" content="https://playmimzy.com/share" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -368,7 +368,7 @@
 <body>
 
   <nav>
-    <a href="/" class="nav-logo">PitchIt</a>
+    <a href="/" class="nav-logo">Mimzy</a>
     <a href="/#download" class="nav-cta">Download</a>
   </nav>
 
@@ -377,7 +377,7 @@
   <main>
     <div class="eyebrow" id="eyebrow">A friend played</div>
     <h1 id="lede">Hear how they did</h1>
-    <div class="sound-name" id="soundName">a PitchIt sound</div>
+    <div class="sound-name" id="soundName">a Mimzy sound</div>
 
     <!-- Score bubble (shown in score-share mode) -->
     <div class="score-wrap" id="scoreWrap" hidden>
@@ -415,7 +415,7 @@
          shows the original-sound button inline if ?original= was provided. -->
     <div class="challenge-card" id="challengeCard" hidden>
       <h2>You've been challenged.</h2>
-      <p id="challengeBody">A friend dares you to mimic this sound. Download PitchIt and take your shot.</p>
+      <p id="challengeBody">A friend dares you to mimic this sound. Download Mimzy and take your shot.</p>
     </div>
 
     <h3 class="cta-headline" id="ctaHeadline">Can you beat it?</h3>
@@ -448,8 +448,8 @@
   </main>
 
   <footer>
-    <span class="footer-logo">PitchIt</span>
-    <span>&copy; 2026 PitchIt. Hear it. Match it. Share it.</span>
+    <span class="footer-logo">Mimzy</span>
+    <span>&copy; 2026 Mimzy. Hear it. Match it. Share it.</span>
   </footer>
 
   <script>
@@ -624,7 +624,7 @@
       const card = document.getElementById('challengeCard');
       const body = document.getElementById('challengeBody');
       if (soundName) {
-        body.textContent = `A friend dares you to mimic "${soundName}". Download PitchIt and take your shot.`;
+        body.textContent = `A friend dares you to mimic "${soundName}". Download Mimzy and take your shot.`;
       }
       card.hidden = false;
       // Suppress the score-mode lede if no score was provided.

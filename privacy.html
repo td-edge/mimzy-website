@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Mimzy</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --bg: #09090f;
+      --surface: #14141f;
+      --text: #e5e5ef;
+      --muted: #9a9ab0;
+      --purple: #7c3aed;
+      --purple-light: #a78bfa;
+      --pink: #ec4899;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+    a { color: var(--purple-light); }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.25rem;
+      background: linear-gradient(135deg, #fff 0%, var(--purple-light) 60%, var(--pink) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .updated { color: var(--muted); font-size: 0.9rem; margin-bottom: 2.5rem; }
+    h2 { font-size: 1.2rem; margin: 2.25rem 0 0.75rem; color: var(--purple-light); }
+    p, li { color: var(--text); margin-bottom: 0.75rem; }
+    ul { padding-left: 1.4rem; margin-bottom: 0.75rem; }
+    .card {
+      background: var(--surface);
+      border: 1px solid rgba(124,58,237,0.25);
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      margin: 1rem 0;
+    }
+    .home { display: inline-block; margin-bottom: 2rem; color: var(--muted); text-decoration: none; }
+    .home:hover { color: var(--purple-light); }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="home" href="/">← playmimzy.com</a>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: July 2, 2026</p>
+
+    <p>This policy describes how Mimzy ("the app", "we") collects, uses, and protects your information. Mimzy is a mobile game where you record short voice clips imitating reference sounds and receive an accuracy score.</p>
+
+    <h2>Information we collect</h2>
+    <ul>
+      <li><strong>Account information.</strong> When you sign up we collect your email address and a display name. If you sign in with Apple or Google, we receive the identifier and email those providers share with us.</li>
+      <li><strong>Voice recordings.</strong> The short audio clips you record in the app are uploaded to our servers to compute your score and, if you choose to share an attempt, to make it playable from your share link. Recordings are private to your account unless you share them.</li>
+      <li><strong>Gameplay data.</strong> Scores, attempts, streaks, and leaderboard entries.</li>
+      <li><strong>Device and usage data.</strong> Basic technical information (device type, OS version, app version, IP address) used for security, rate limiting, and diagnostics.</li>
+    </ul>
+
+    <h2>Advertising</h2>
+    <p>Mimzy shows optional rewarded video ads served by Google AdMob. AdMob may collect device identifiers (such as the advertising ID) and usage data to serve and measure ads, as described in <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>. You can limit ad personalization in your device settings (iOS: Settings → Privacy → Tracking; Android: Settings → Google → Ads).</p>
+
+    <h2>How we use your information</h2>
+    <ul>
+      <li>To operate the game: score your recordings, maintain leaderboards, and power daily challenges.</li>
+      <li>To make sharing work: when you share an attempt, the link contains a temporary playable URL for that recording (links expire after 7 days).</li>
+      <li>To keep the service secure and prevent abuse.</li>
+    </ul>
+    <p>We do <strong>not</strong> sell your personal information, and we do not use your voice recordings to train machine-learning models or for any purpose other than scoring and the sharing features you initiate.</p>
+
+    <h2>Where your data lives</h2>
+    <p>Account data, gameplay data, and recordings are stored with <a href="https://supabase.com" rel="noopener">Supabase</a> (our database and storage provider). Scoring runs on our backend servers. Reference sounds come from <a href="https://freesound.org" rel="noopener">Freesound.org</a> under Creative Commons licenses.</p>
+
+    <h2>Sharing links</h2>
+    <div class="card">
+      <p>When you share a score, the link includes your recording so friends can hear it. Anyone with the link can play that clip while the link is valid (7 days). Only share what you're comfortable with others hearing.</p>
+    </div>
+
+    <h2>Data retention and deletion</h2>
+    <p>Your data is retained while your account is active. You can request deletion of your account and all associated data — including voice recordings — by contacting us at the address below. We will complete deletion requests within 30 days.</p>
+
+    <h2>Children</h2>
+    <p>Mimzy is not directed at children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has created an account, contact us and we will delete it.</p>
+
+    <h2>Your rights</h2>
+    <p>Depending on where you live, you may have rights to access, correct, export, or delete your personal data. Contact us to exercise any of these rights.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>We may update this policy as the app evolves. Material changes will be reflected by the "Last updated" date above.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or requests: <a href="mailto:support@playmimzy.com">support@playmimzy.com</a></p>
+  </main>
+</body>
+</html>
